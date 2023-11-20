@@ -21,7 +21,7 @@ function createAdElements(ad) {
   title.textContent = ad.title;
   const description = document.createElement('p');
   description.textContent = ad.description;
-  description.style.fontSize = '15px';
+  description.style.fontSize = '14px';
   const learnMoreButton = document.createElement('button');
   learnMoreButton.textContent = 'Learn More';
   learnMoreButton.style.backgroundColor = 'blue';
