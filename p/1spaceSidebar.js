@@ -32,8 +32,7 @@ function createAdElements(ad) {
   const footer = document.createElement('small');
   const adLink = document.createElement('a');
   adLink.href = "https://go.joindefy.com/youradhere";
-  adLink.textContent = 'VMG Ads';
-  adLink.style.color = 'inherit';
+  adLink.innerHTML = '<br>VMG Ads';
   footer.appendChild(adLink);
   footer.innerHTML += ' | FTC: Sponsored Content';
   adContainer.appendChild(title);
