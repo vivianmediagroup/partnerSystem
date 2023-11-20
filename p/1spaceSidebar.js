@@ -13,8 +13,8 @@ function createAdElements(ad) {
   if (ad.image) {
     const image = document.createElement('img');
     image.src = ad.image;
-    image.style.width = '100%';
-    image.style.height = '25vh';
+    image.style.height = '20vh';
+    image.style.width = 'auto';
     adContainer.appendChild(image);
   }
   const title = document.createElement('h4');
