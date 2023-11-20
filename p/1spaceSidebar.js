@@ -31,10 +31,9 @@ function createAdElements(ad) {
   };
   const footer = document.createElement('small');
   const adLink = document.createElement('a');
-  adLink.href = ad.link;
+  adLink.href = "https://go.joindefy.com/youradhere";
   adLink.textContent = 'VMG Ads';
   adLink.style.color = 'inherit';
-  adLink.style.textDecoration = 'none';
   footer.appendChild(adLink);
   footer.innerHTML += ' | FTC: Sponsored Content';
   adContainer.appendChild(title);
